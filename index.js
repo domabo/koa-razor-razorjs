@@ -25,11 +25,7 @@ var path = require('path');
  */
 
 module.exports = function (dir) {
-  console.log('add render() method to `this.ctx`');
-
-  // get render function
-  
-
+ 
   // middleware
   return function *views(next) {
     renderFn = render(dir);
